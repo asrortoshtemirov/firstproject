@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="main-header">
+        <div class="container main-header__container">
+            <a class="main-header__logo" href="#">
+                <img src="./img/header-logo.png" alt="header-logo">
+            </a>
+            <nav class="main-header__nav">
+                <ul class="main-header__list">
+                    <li class="main-header__item">
+                        <a class="main_header__link active" href="#">Home </a>
+                    </li>
+                    <li class="main-header__item">
+                        <a class="main_header__link" href="#about">About </a>
+                    </li>
+                    <li class="main-header__item">
+                        <a class="main_header__link" href="#work">Services</a>
+                    </li>
+                    <li class="main-header__item">
+                        <a class="main_header__link" href="#customer">Reviews</a>
+                    </li>
+                </ul>
+            </nav>
+            <button type="button" class="main-header__btn btn_primary">Get Started</button>
+        </div>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="container hero__container">
+                <div>
+                    <h3 class="hero__name">Smart Business</h3>
+                    <h1 class="hero__title">
+                        Connecting people is our <span class="hero__title_span">business</span>
+                    </h1>
+                    <p class="hero__text">
+                        As a rule the organization settles on the inventive and media choices. Regularly it supplies
+                        supporting statistical.
+                    </p>
+                    <button class="hero__btn2 btn_primary" type="button">Get Started</button>
+                    <button class="hero__btn" type="button">Play Video</button>
+                </div>
+                <div>
+                    <img src="./img/smart-img.svg" alt="smart_business-img">
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container about__container">
+                <div>
+                    <img src="./img/about-img.png" alt="about-img">
+                </div>
+                <div>
+                    <h3 class="about__title_name">
+                        About us
+                    </h3>
+                    <h2 class="about__title">
+                        Platform Dedicated To Promoting
+                    </h2>
+                    <p class="about__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum sagittis ultrices
+                        consectetur adipiscing elit. fringilla quisque pulvinar..
+                    </p>
+                    <button class="about__btn btn_primary" type="button">What we do?</button>
+                </div>
+            </div>
+        </section>
+        <section id="work">
+            <div class="container work__container">
+                <h2 class="work__title1">
+                    How We Work
+                </h2>
+                <ul class="work__list">
+                    <li class="work__item">
+                        <h2 class="work__title">
+                            Start Design
+                        </h2>
+                        <p class="work__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra suscipit adipiscing elit.
+                        </p>
+                    </li>
+                    <li class="work__item">
+                        <h2 class="work__title">
+                            Go to Code
+                        </h2>
+                        <p class="work__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra suscipit adipiscing elit.
+                        </p>
+                    </li>
+                    <li class="work__item">
+                        <h2 class="work__title">
+                            Final Deliverd
+                        </h2>
+                        <p class="work__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra suscipit adipiscing elit.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="customer">
+            <div class="container customer__container">
+                <div class="customer__top">
+                    <h2 class="customer__title">
+                        What Our Customers are Saying.
+                    </h2>
+                    <div class="customer__btn_block">
+                        <button class="customer__btn" type="button"></button>
+                        <button class="customer__btn" type="button"></button>
+                    </div>
+                </div>
+                <ul class="customer__list">
+                    <li class="customer__item">
+                        <div class="customer__block">
+                            <div class="customer__img">
+                                <img src="./img/customer-img1.png" alt="customer-img1">
+                            </div>
+                        </div>
+                        <div class="customer__content">
+                            <p class="customer__des">
+                                I recently concluded a complete messaging revamp for an exciting com
+                            </p>
+                            <div class="customer__info">
+                                <h3 class="customer__name">
+                                    Leo Aminoff
+                                </h3>
+                                <p class="customer__job">
+                                    Product Designer
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="customer__item">
+                        <div class="customer__block">
+                            <div class="customer__img">
+                                <img src="./img/customer-img2.png" alt="customer-img2">
+                            </div>
+                        </div>
+                        <div class="customer__content">
+                            <p class="customer__des">
+                                I recently concluded a complete messaging revamp for an exciting com
+                            </p>
+                            <div class="customer__info">
+                                <h3 class="customer__name">
+                                    Leo Aminoff
+                                </h3>
+                                <p class="customer__job">
+                                    Product Designer
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="our">
+            <div class="container our__container">
+                <h2 class="our__title">
+                    Sign Up to Our Newsletter
+                </h2>
+                <p class="our__text">
+                    Yours could be one of them.
+                </p>
+                <form action="https://echo.htmlacademy.ru/" method="post" target="_blank" class="newsletter__form">
+                    <input type="email" id="email" autocomplete="off" name="email" placeholder="Enter your email"
+                        aria-label="email">
+                    <button type="submit" class="newsletter__btn">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <section id="footer-top">
+            <div class="container footer-top__container">
+                <div class="footer-top__logo-block">
+                    <a class="footer-top__logo" href="#">
+                        <img src="./img/header-logo.png" alt="footer-logo">
+                    </a>
+                    <ul class="footer-top__logo-block_list">
+                        <li class="footer-top__logo-block_item">
+                            <a class="footer-top__link" href="#">Smart business</a>
+                        </li>
+                        <li class="footer-top__logo-block_item">
+                            <a class="footer-top__link" href="#">Community</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-top__resources">
+                    <h3 class="footer-top__resources-title">
+                        Resources
+                    </h3>
+                    <ul class="footer-top__resources-list">
+                        <li class="footer-top__resources-item">
+                            <a class="footer-top__link" href="#">Start Business</a>
+                        </li>
+                        <li class="footer-top__resources-item">
+                            <a class="footer-top__link" href="#">Digital Marketing</a>
+                        </li>
+                        <li class="footer-top__resources-item">
+                            <a class="footer-top__link" href="#">Course Creation</a>
+                        </li>
+                        <li class="footer-top__resources-item">
+                            <a class="footer-top__link" href="#">Business Accelerator</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-top__mission">
+                    <h3 class="footer-top__mission-title">
+                        Mission
+                    </h3>
+                    <ul class="footer-top__mission-list">
+                        <li class="footer-top__mission-item">
+                            <a class="footer-top__link" href="#">Aboout Digital Analyst</a>
+                        </li>
+                        <li class="footer-top__mission-item">
+                            <a class="footer-top__link" href="#">Team</a>
+                        </li>
+                        <li class="footer-top__mission-item">
+                            <a class="footer-top__link" href="#">Become a Partner
+                            </a>
+                        </li>
+                        <li class="footer-top__mission-item">
+                            <a class="footer-top__link" href="#">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-top__contact">
+                    <h3 class="footer-top__contact-title">
+                        Contact
+                    </h3>
+                    <ul class="footer-top__contact-list">
+                        <li class="footer-top__contact-item">
+                            <a class="footer-top__link" href="#">
+                                <address>
+                                    041-774073
+                                </address>
+                            </a>
+                        </li>
+                        <li class="footer-top__contact-item">
+                            <a class="footer-top__link footer__link" href="#">
+                                <address>hello@digitalanalyst.org</address>
+                            </a>
+                        </li>
+                        <li class="footer-top__contact-item">
+                            <a class="footer-top__link" href="#">Contact Form
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="footer-bottom">
+            <div class="container footer__bottom_container">
+                <p class="footer-bottom_text">
+                    © 2021 DigitalAnalyst.org. A 50 non-profit organization. EIN: -3410655
+                </p>
+                <ul class="footer__bottom_list">
+                    <li class="footer__bottom_list-item">
+                        <a href="#">
+                            <img src="./img/footer-icon-f.svg" alt="footer_facebook_icon">
+                        </a>
+                    </li>
+                    <li class="footer__bottom_list-item">
+                        <a href="#">
+                            <img src="./img/footer-icon-t.svg" alt="footer_twiter_icon">
+                        </a>
+                    </li>
+                    <li class="footer__bottom_list-item">
+                        <a href="#">
+                            <img src="./img/footer-icon-y.svg" alt="footer_you-tybe_icon">
+                        </a>
+                    </li>
+                    <li class="footer__bottom_list-item">
+                        <a href="#">
+                            <img src="./img/footer-icon-i.svg" alt="footer_instagram_icon">
+                        </a>
+                    </li>
+                    <button class="footer__bottom_btn" type="button">
+                        Sign Up
+                    </button>
+                </ul>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
